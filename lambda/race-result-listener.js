@@ -12,7 +12,7 @@ exports.handler = (event, context, callback) => {
   getMessage()
     .then((data) => {
       console.log(data)
-      callback(null, data)
+      callback(null, data)  
     })
     .catch((err) => {
       console.error(err)
